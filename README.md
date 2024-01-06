@@ -1,1 +1,1 @@
-# Linux_Process_Threads_IntP-Comm
+# Linux_Process_Threads_Interprocess-Communication
