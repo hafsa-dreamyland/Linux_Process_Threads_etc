@@ -20,6 +20,6 @@ int main(){
         wait(&child_status); //waits for the first child to die(any one!)
      } else{
         printf ("this is the child process with PID %d.\n", getpid());
-        printf("its parent process is with PID %d.\n", get ppid());
+        printf("its parent process is with PID %d.\n", getppid());
      }
 }
