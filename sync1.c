@@ -61,8 +61,8 @@ int main() {
     pthread_create(&threadB, NULL, B, NULL);
 
     // Wait for threads to finish
-    //pthread_join(threadA, NULL);
-    //pthread_join(threadB, NULL);
+    pthread_join(threadA, NULL);
+    pthread_join(threadB, NULL);
 
     // Destroy semaphores
     sem_destroy(&s1);
