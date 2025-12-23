@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <semaphore.h>
 
+// This program synchronizes two threads using semaphores and a mutex,
+// ensuring mutual exclusion on a shared resource and alternating access.
+
 sem_t s1, s2, mutex;
 
 // Definition of functions

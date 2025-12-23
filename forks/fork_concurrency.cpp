@@ -1,4 +1,3 @@
-// 03_fork_arrows.c
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/wait.h>
